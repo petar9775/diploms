@@ -1,0 +1,564 @@
+.one{
+	width: 100%;
+	height: auto;
+}
+.one .about{
+	background-image: url(../images/del.jpg);
+	height: 50vh;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.one .text{
+	position: relative;
+	top: 30%;
+}
+.one .text h1{
+	font-family: Lato-Bold, sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 60px;
+}
+
+}
+.one .text p::selection{
+	background-color: black;
+	color: white;
+}
+@media only screen and (max-width: 768px){
+		.one .about{
+		background-image: url(../images/about.jpg);
+		height: 60vh;
+		background-position: top;
+		background-attachment: fixed;
+	}
+}
+@media only screen and (max-width: 576px){
+		.one .about{
+		background-image: url(../images/about.jpg);
+		height: 60vh;
+		background-position: top;
+		background-attachment: fixed;
+	}
+	.wrapper{
+		width: 100%;
+	}
+}
+
+
+.three{
+	width: 100%;
+	height: auto;
+}
+.three .text{
+	width: 50%;
+	margin: 50px auto;
+}
+.three .text h2{
+	font-weight: normal;
+	color: #444;
+	font-family: Lato, sans-serif;
+	text-align: center;
+}
+.three .text .italic{
+	font-family: Lato, sans-serif;
+	font-style: italic;
+	text-align: center;
+	margin-top: 30px;
+	color: #888;
+}
+.three .text .line{
+	width: 70px;
+	border: none;
+	background-color: rgb(27, 52, 108);
+	padding: 1px;
+	margin: 30px auto;
+}
+.three .text p{
+	font-family: Lato, sans-serif;
+	margin-top: 30px;
+	text-align: center;
+	color: #666;
+}
+@media only screen and (max-width: 576px){
+	.three .text{
+		width: 70%;
+		margin: 50px auto;
+	}
+}
+
+.four{
+	width: 100%;
+	height: auto;
+}
+.four .cover{
+	width: 100%;
+	height: auto;
+}
+.four .cover img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+.five{
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
+.five .box{
+	display: flex;
+}
+.five .box .box1{
+	width: 50%;
+	margin: 70px 0;
+	text-align: center;
+}
+.five .box .box1 p{
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+	color: #666;
+	line-height: 1.5em;
+	font-family: Lato, sans-serif;
+}
+.five .box .box1 p::selection{
+	background-color: black;
+	color: white;
+}
+@media only screen and (max-width: 768px){
+		.five .box{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.five .box .box1{
+		text-align: center;
+		width: 100%;
+		margin: 70px 0;
+		text-align: center;
+	}
+	.five .box .box2 {
+		width: 100%;
+		height: auto;
+	} 	
+}
+@media only screen and (max-width: 576px){
+		.five .box{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.five .box .box1{
+		text-align: center;
+		width: 100%;
+		margin: 70px 0;
+		text-align: center;
+	}
+	.five .box .box2 {
+		width: 100%;
+		height: auto;
+	} 	
+	.five .box .box1 p{
+		margin: 0 auto;
+		width: 80%;
+		text-align: justify;
+		color: #666;
+		line-height: 1.5em;
+	}
+}
+
+
+
+
+
+
+.six{
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
+.six .box{
+	display: flex;
+}
+.six .box .box1{
+	width: 50%;
+	margin: 5px 0;
+	text-align: center;
+}
+.six .box .box1 h2{
+	margin: 70px;
+	text-align: center;
+	font-style: normal;
+	font-family: Lato, sans-serif;
+}
+.six .box .box1 h2::selection{
+	background-color: black;
+	color: white;
+}
+.six .box .box1 .line{
+	width: 70px;
+	border: none;
+	background-color: rgb(77, 139, 0);
+	padding: 1px;
+	margin: 20px auto;
+}
+.six .box .box1 p{
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+	color: #666;
+	line-height: 1.5em;
+	font-family: Lato, sans-serif;
+}
+.six .box .box1 p::selection{
+	background-color: black;
+	color: white;
+}
+@media only screen and (max-width: 768px){
+	.six .box{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.six .box .box1{
+		text-align: center;
+		width: 100%;
+		margin: 70px 0;
+		text-align: center;
+	}
+	.six .box .box2 {
+		width: 100%;
+		height: auto;
+	} 	
+}
+@media only screen and (max-width: 576px){
+	.six .box{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.six .box .box1{
+		text-align: center;
+		width: 100%;
+		margin: 70px 0;
+		text-align: center;
+	}
+	.six .box .box2 {
+		width: 100%;
+		height: auto;
+	} 	
+	.six .box .box1 p{
+		margin: 0 auto;
+		width: 80%;
+		text-align: justify;
+		color: #666;
+		line-height: 1.5em;
+	}
+}
+
+
+
+
+
+
+
+
+.seven{
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
+.seven .box{
+	display: flex;
+	background-color: #eee;
+}
+.seven .box .box1{
+	width: 50%;
+	margin: 70px 0;
+	text-align: center;
+}
+.seven .box .box1 h2{
+	margin: 70px;
+	text-align: center;
+	font-style: normal;
+	font-family: Lato, sans-serif;
+}
+.seven .box .box1 h2::selection{
+	background-color: black;
+	color: white;
+}
+.seven .box .box1 .italic{
+	font-style: italic;
+	font-family: Lato, sans-serif;
+	color: #888;
+	text-align: center;
+}
+.seven .box .bo1 .italic::selection{
+	background-color: black;
+	color: white;
+}
+.seven .box .box1 .line{
+	width: 70px;
+	border: none;
+	background-color: rgb(77, 139, 0);
+	padding: 1px;
+	margin: 20px auto;
+}
+.seven .box .box1 p{
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+	color: #666;
+	line-height: 1.5em;
+	font-family: Lato, sans-serif;
+}
+.seven .box .box1 p::selection{
+	background-color: black;
+	color: white;
+}
+.seven .box .box1 .btn1{
+	margin-top: 20px;
+	padding: 10px;
+	background-color: rgb(0,154,163);
+	color: white;
+	border: none;
+}
+.seven .box .box1 .btn1:hover{
+	background-color: rgb(27, 52, 108);
+	transition: 0.5s ease;
+}
+.seven .box .box1 .btn2{
+	margin-top: 20px;
+	padding: 10px;
+	background-color: rgb(27, 52, 108);
+	color: white;
+	border: none;
+}
+.seven .box .box1 .btn2:hover{
+	background-color: rgb(0,154,163);
+	transition: 0.5s ease;
+}
+.seven .box .box2 img{
+	width: 100%;
+	height: 100%;
+} 
+@media only screen and (max-width: 768px){
+	.seven .box{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.seven .box .box1{
+		text-align: center;
+		width: 100%;
+		margin: 70px 0;
+		text-align: center;
+	}
+	.seven .box .box2 {
+		width: 100%;
+		height: auto;
+	} 	
+	.seven .box .box2 img{
+		width: 100%;
+		height: 100%;
+	}
+}
+@media only screen and (max-width: 576px){
+	.seven .box{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.seven .box .box1{
+		text-align: center;
+		width: 100%;
+		margin: 70px 0;
+		text-align: center;
+	}
+	.seven .box .box2 {
+		width: 100%;
+		height: 100%;
+	} 	
+	.seven .box .box1 p{
+		margin: 0 auto;
+		width: 80%;
+		text-align: justify;
+		color: #666;
+		line-height: 1.5em;
+	}
+}
+
+.nine{
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
+.nine .box{
+	display: flex;
+	background-color: rgb(27, 52, 108);
+}
+.nine .box .box1{
+	width: 50%;
+	margin: 70px 0;
+	text-align: center;
+	color: white;
+}
+.nine .box .box1 h2{
+	margin: 70px;
+	text-align: center;
+	font-style: normal;
+	font-family: Lato, sans-serif;
+}
+.nine .box .box1 h2::selection{
+	background-color: black;
+	color: white;
+}
+.nine .box .box1 .italic{
+	font-style: italic;
+	font-family: Lato, sans-serif;
+	color: #888;
+	text-align: center;
+	color: white;
+}
+.nine .box .bo1 .italic::selection{
+	background-color: black;
+	color: white;
+}
+.nine .box .box1 .line{
+	width: 70px;
+	border: none;
+	background-color: rgb(0,154,163);
+	padding: 1px;
+	margin: 20px auto;
+}
+.nine .box .box1 p{
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+	color: #666;
+	line-height: 1.5em;
+	font-family: Lato, sans-serif;
+	color: white;
+}
+.nine .box .box1 p::selection{
+	background-color: black;
+	color: white;
+}
+.nine .box .box2 img{
+	width: 100%;
+	height: auto;
+} 
+@media only screen and (max-width: 768px){
+	.nine .box{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.nine .box .box1{
+		text-align: center;
+		width: 100%;
+		margin: 70px 0;
+		text-align: center;
+	}
+	.nine .box .box2 {
+		width: 100%;
+		height: auto;
+	} 	
+}
+@media only screen and (max-width: 576px){
+	.nine .box{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.nine .box .box1{
+		text-align: center;
+		width: 100%;
+		margin: 70px 0;
+		text-align: center;
+	}
+	.nine .box .box2 {
+		width: 100%;
+		height: auto;
+	} 	
+	.nine .box .box1 p{
+		margin: 0 auto;
+		width: 80%;
+		text-align: justify;
+		color: #666;
+		line-height: 1.5em;
+	}
+}
+
+
+.eleven{
+	width: 100%;
+	height: auto;
+	padding: 40px;
+}
+.eleven .wrapper1{
+	max-width: 1200px;
+	width: 80%;
+	margin: 0 auto;
+}
+.eleven .float{
+	width: 100%;
+	height: auto;
+
+}
+.eleven .float .logo{
+	width: 55%;
+	float: left;
+}
+.eleven .float .text{
+	width: 15%;
+	float: right;
+}
+.eleven .float .text h3{
+	color: rgb(77, 139, 0); 
+	font-family: Lato, sans-serif;
+	font-style: normal;
+	margin-bottom: 20px;
+}
+.eleven .float .text a{
+	display: block;
+	color: #888;
+	text-decoration: none;
+	line-height: 2em;
+	font-family: Lato, sans-serif;
+}
+.eleven .float .text a .face{
+	color: #3B5998;
+}
+.eleven .float .text a .yt{
+	color: red;
+}
+.eleven .float .text a .insta{
+	color: pink;
+}
+.eleven .float .text p{
+	display: block;
+	color: #888;
+	line-height: 2em;
+	font-family: Lato, sans-serif;
+}
+footer{
+	width: 100%;
+	height: auto;
+	clear: both;
+	padding: 100px;
+}
+footer hr{
+	border: 0.5px solid #ddd;
+}
+footer p{
+	text-align: center;
+	color: #999;
+	margin-top: 20px;
+}
+@media only screen and (max-width: 768px){
+	footer{
+		padding: 60px;
+	}
+}
+@media only screen and (max-width: 576px){
+	footer{
+		padding: 30px;
+	}
+}
+
