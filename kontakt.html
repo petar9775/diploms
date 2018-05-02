@@ -96,11 +96,11 @@
 					<div class="box22">
 						<h2>Pišite nam</h2>
 						<p>Obrazac za Vaše zahteve i sugestije</p>
-						<form action="">
-							<input type="text" placeholder="Ime*">
-							<input type="email" placeholder="Email*">
-							<input type="text" placeholder="Subject*" class="subject">
-							<textarea rows="10">Poruka*</textarea>
+						<form action="https://formspree.io/your@email.com" method="POST">
+							<input type="text" placeholder="Ime*" name="ime">
+							<input type="email" placeholder="Email*" name="_replyto">
+							<input type="text" placeholder="Subject*" class="subject" name="naslov">
+							<textarea rows="10" name="poruka">Poruka*</textarea>
 							<input type="submit" value="POŠALJI PORUKU">
 						</form>
 					</div>
